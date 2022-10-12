@@ -13,18 +13,7 @@ export const SimpleForm = () => {
     console.log('useEffect se llamo')
   }, [])
 
-  useEffect(() => {
-      const onMouseMove = ({x,y}) =>{
-
-      }
-
-
-      window.addEventListener('mousemove', onMouseMove)
-    return ()=>{
-      window.removeEventListener('mousemove', onMouseMove)
-    }
-  }, [username])
-  
+ 
   
   const onInputChange = ({ target }) =>{
     const {name,value} = target
