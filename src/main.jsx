@@ -8,13 +8,15 @@ import { CounterApp } from './01-useState/CounterApp'
 //import { Layout } from './05-useLayoutEffect/Layout'
 //import { CallbackHook } from './06-memos/CallbackHook'
 import { Padre } from './07-tarea-memo/Padre'
+import './08-useReducer/intro-reducer';
 //import { Memorize } from './06-memos/Memorize'
 //import { SimpleForm } from './02-useEffect/SimpleForm'
 //import { HooksApp } from './HooksApp'
 import './index.css'
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+/* ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Padre/>
   </React.StrictMode>
 )
+ */
